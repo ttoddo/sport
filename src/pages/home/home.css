@@ -16,7 +16,6 @@
         color: var(--tc);
         transition: .3s;
         &:hover{
-            text-decoration: underline;
             color: #949090;
         }
     }
@@ -119,7 +118,6 @@
         &:hover{
             color: #8f8989;
             background-color: #ffffff;
-            text-decoration: underline;
         }
 
     }
