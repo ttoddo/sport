@@ -18,6 +18,12 @@
     margin-bottom: 105px;
 
 }
+/* page blocks */
+.main__blocks{
+    display: flex;
+    gap: 92px;
+    align-items: flex-start;
+}
 /* блок фильтров */
 .main__filters{
     display: flex;
@@ -69,4 +75,47 @@
 /* штука которая была, когда я еще верстал полностью страницу */
 .first{
     border-radius: 10px 10px 0 0;
+}
+/* блок карточек */
+.main__cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 43px;
+}
+/* карточка */
+.card{
+    position: relative;
+    padding: 20px 40px;
+    text-align: center;
+    border: solid 3px var(--tc);
+    border-radius: 20px;
+    width: 258px;
+    img{
+        top: 4px;
+        right: 4px;
+        position:absolute;
+        width: 23px;
+    }
+    .card__date{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.38px;
+    }
+    .card__title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+    }
+    .card__info{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+    .card__place{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.5px;
+    }
 }
