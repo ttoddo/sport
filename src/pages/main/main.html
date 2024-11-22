@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../../styles/normalize.css">
-	<script src="../../js/home.js" defer></script>
-	<title>Home</title>
+	<script src="../../js/main.js" defer></script>
+	<title>Main page</title>
 </head>
 <body>
 	<header class="header">
@@ -28,6 +28,32 @@
 			</div>
         </div>
     </header>
-	
+	<main class="main">
+		<div class="main__container container">
+			<div class="main__content">
+				<h1 class="main__title">Календарь</h1>
+				<div class="main__blocks">
+					<div class="main__filters">
+						<p class="filters__title">Фильры: </p>
+						<div class="filter">
+							<div class="filter__head">
+								<p class="filter__text">Количество участников: </p>
+								<img src="../../media/arrow.svg" alt="arrow">
+							</div>
+							<div class="filter__content">
+								<input class="filter__input" min="0" max="20" id="min" type="range" value="10">
+								<input class="filter__input" min="0" max="20" id="max" type="range" value="10">
+								<span id="amountMin">Минимальное: 10</span>
+								<span id="amountMax">Максимальное: 10</span>
+							</div>
+						</div>
+					</div>
+					<div class="main__cards">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 </html>

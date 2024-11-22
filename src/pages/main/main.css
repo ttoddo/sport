@@ -1,2 +1,67 @@
 @import '../home/home.css';
 
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgc);
+}
+.main__content{
+    text-align: center;
+}
+.main__title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46.32px;
+    text-transform: uppercase;
+    margin-bottom: 105px;
+
+}
+.main__filters{
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+}
+.filters__title{   
+
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 47.54px;
+    margin-bottom: 21px;
+}
+.filter__wrap{
+    width: 100%;
+    height: fit-content;
+}
+.filter{
+    padding: 20px;
+    background: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.26px;
+    .filter__content{
+        text-align: left;
+        background-color: #2c2c2c;
+        color: var(--tc);
+        padding: 24px;
+        font-size: inherit;
+        border: 1px solid var(--tc);
+        display: none;
+    }
+    .filter__head{
+        display: flex;
+        color: var(--tc);
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px;
+        text-align: left;
+        border: 1px solid var(--tc);
+       
+    }
+    .filter__input{
+        width: 100%;
+        accent-color: #14b8a6;
+    }
+}
+.first{
+    border-radius: 10px 10px 0 0;
+}
