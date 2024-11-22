@@ -1,0 +1,17 @@
+.login__block, .regiser__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__content, .register__content{
+    background-color: var(--bgc);
+    color: var(--tc);
+    text-align: center;
+    padding: 71px 44px;
+}
+.form__title{
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 46.32px;
+    margin-bottom: 76px;
+}

@@ -1,0 +1,134 @@
+
+
+.header{
+    background-color: var(--hbc);
+    padding: 23px 0;
+}
+.header__container{
+    margin: auto;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+
+    .title__link {
+        color: var(--tc);
+        transition: .3s;
+        &:hover{
+            text-decoration: underline;
+            color: #949090;
+        }
+    }
+}
+.header__but{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16.72px;
+    padding: 16px 30px;
+    border-radius: 15px;
+    transition: .3s;
+
+}
+.header__login{
+    border: 3px solid var(--hcd);
+    color: var(--hcd);
+    &:hover{
+        filter: brightness(220%);
+    }
+}
+.header__register{
+    color: var(--bgc);
+    background-color: var(--tc);
+    &:hover{
+        opacity: 30%;
+    }
+}
+.header__title{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32.4px;
+}
+.header-buttons{
+    display: flex;
+    width:  390px;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme-switcher {
+    display: flex;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #6f6f6f;
+    cursor: pointer;
+    align-items: center;
+    gap: 2px;
+}
+.theme-switcher__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 35px;
+    transition: .1s background-color, .1s box-shadow;
+    border-radius: 6px;
+    will-change: background-color;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+#dark{
+    height: 30px;
+}
+.theme-switcher__btn--active {
+    background-color: #c7c5c5;;
+    box-shadow: 0 4px 4px #00000029;
+}
+.home{
+    background-color: var(--bgc);
+    padding-bottom: 31px;
+}
+.home__container{
+    margin: auto;
+}
+.home__content{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    p{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 37.76px;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: var(--tc);
+    }
+    a {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 26.32px;
+        background-color: var(--tc);
+        color: var(--bgc);
+        padding: 20px 31px;
+        border-radius: 50px;
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+        &:hover{
+            color: #8f8989;
+            background-color: #ffffff;
+            text-decoration: underline;
+        }
+
+    }
+    img{
+        width: 60%;
+    }
+}
+.home-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
