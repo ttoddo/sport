@@ -5,9 +5,11 @@
     justify-content: center;
     background-color: var(--bgc);
 }
+/* выравнивание */
 .main__content{
     text-align: center;
 }
+/* заголовок */
 .main__title{
     font-size: 38px;
     font-weight: 700;
@@ -16,11 +18,13 @@
     margin-bottom: 105px;
 
 }
+/* блок фильтров */
 .main__filters{
     display: flex;
     flex-direction: column;
     width: 303px;
 }
+/* Заголовок блока фильтров */
 .filters__title{   
 
     font-size: 39px;
@@ -28,16 +32,14 @@
     line-height: 47.54px;
     margin-bottom: 21px;
 }
-.filter__wrap{
-    width: 100%;
-    height: fit-content;
-}
+/* сам блок фильтра */
 .filter{
     padding: 20px;
     background: none;
     font-size: 24px;
     font-weight: 500;
     line-height: 26.26px;
+    /* инпуты хуинпуты */
     .filter__content{
         text-align: left;
         background-color: #2c2c2c;
@@ -47,6 +49,7 @@
         border: 1px solid var(--tc);
         display: none;
     }
+    /* заголовок при нажатии на который должен появиться блок */
     .filter__head{
         display: flex;
         color: var(--tc);
@@ -57,11 +60,13 @@
         border: 1px solid var(--tc);
        
     }
+    /* инпуты без хуинпутов */
     .filter__input{
         width: 100%;
         accent-color: #14b8a6;
     }
 }
+/* штука которая была, когда я еще верстал полностью страницу */
 .first{
     border-radius: 10px 10px 0 0;
 }
