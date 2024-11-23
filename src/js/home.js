@@ -117,3 +117,4 @@ function togglePassword() {
         passwordInput.type = 'password'; // Скрываем пароль
     }
 }
+

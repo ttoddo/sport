@@ -76,6 +76,7 @@ main {
 
 .notification {
     cursor: pointer;
+    position: relative;
     background-color: transparent;
     border-radius: 50%;
     svg {
@@ -596,4 +597,31 @@ main {
     font-weight: 500;
     line-height: 35.35px;
     color: var(--tc);
+}
+/* блок уведов */
+.notification__block{
+    position: absolute;
+    background-color: var(--hbc);
+    width: 300px;
+    height: fit-content;
+    padding: 30%;
+    border-radius: 20px;
+    top: 100%;
+    right: 5px;
+    border: 1px solid #dbdbdb;
+    z-index: 4;
+   
+}
+.notification__item{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dbdbdb;
+    &:nth-last-child(1){
+        border-bottom: none;
+    }
+    span{
+        color: var(--tc);
+        font-size: 20px;
+    }
 }
