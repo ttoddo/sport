@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .header__container {
+    .header__container, .event__container {
         padding: 0;
         flex-direction: column;
         gap: 20px;
