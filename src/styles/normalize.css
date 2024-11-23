@@ -1,31 +1,44 @@
-/* @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic); */
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 * {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	outline: none;
-	font-family: Montserrat;
-	box-sizing: border-box;
-	color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    font-family: Montserrat;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
 }
-:root{
-	--tc: #fff;
-	--bgc: #000;
-    --hbc: #1b1b1b;
-    --hcd: #363636;
-	--fic: #191919;
+
+input {
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
 }
+
 html {
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	/* color: variables.$black; */
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* color: variables.$black; */
+}
+
+main {
+    width: 100%;
+    background-color: var(--bgc);
+}
+
+button {
+    color: #fff;
+    border: none;
 }
 
 a,
@@ -37,37 +50,39 @@ h2,
 h3,
 h4,
 h5 {
-	/* color: variables.$black; */
+    /* color: variables.$black; */
 }
 
 h1 {
-	font-size: 48px;
-	color: #fff;
+    font-size: 48px;
+    color: #fff;
 }
 
 h2 {
-	font-weight: 600;
-	font-size: 28px;
-	line-height: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 input {
-	border: none;
-	outline: none;
+    border: none;
+    outline: none;
+    background-color: #363636;
 }
 
 .noselect {
-	-webkit-touch-callout: none; /* iOS Safari */
-	-webkit-user-select: none; /* Safari */
-	-khtml-user-select: none; /* Konqueror HTML */
-	-moz-user-select: none; /* Old versions of Firefox */
-	-ms-user-select: none; /* Internet Explorer/Edge */
-	user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
-.container{
-	width: 1200px;
+
+.container {
+    width: 1200px;
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/index.css" />
+        <link rel="stylesheet" href="../styles/normalize.css" />
+        <script src="../js/home.js" defer></script>
+        <title>Register</title>
+    </head>
+    <body>
+        <header class="header">
+			<div class="header__container container">
+					<div class="logo">
+						<a href="#" class="title__link">Календарь Спорта</a>
+					</div>
+					<section class="header-buttons">
+						<div class="theme-switcher">
+							<div class="theme-switcher__btn " id="light">
+									<img src="../media/sun.svg"></img>
+							</div>
+							<div class="theme-switcher__btn theme-switcher__btn--active" id="dark">
+									<img src="../media/moon.svg"></img>
+							</div>
+						</div>
+						<div class="navigation">
+							<a href="/login" class="header__login header__but">Вход</a>
+							<a href="/reg" class="header__register header__but">Регистрация</a>
+						</div>
+					</section>
+				</div>
+		</header>
+        <main>
+            <div class="content">
+				<div class="login__block">
+					<div class="register__content">
+						<p class="form__title" id="formTitle">Авторизация</p>
+						<form class="register__form">
+							<div class="input__block">
+								<!-- <div class="input__image">
+									<img src="../media/profileForm.svg" />
+								</div>
+								<div class="line"></div> -->
+								<input
+								class="register__input input"
+								type="text"
+								placeholder="Логин"
+							/>
+							</div>
+							<div class="input__block">
+								<!-- <div class="input__image">
+									<img src="../media/lock.svg" />
+								</div>
+								<div class="line"></div> -->
+
+								<input
+									class="register__input input"
+									type="password"
+									placeholder="Пароль"
+								/>
+							</div>
+							<button class="input__button">
+								Войти
+							</button>
+						</form>
+					</div>
+				</div>
+            </div>
+        </main>
+    </body>
+</html>

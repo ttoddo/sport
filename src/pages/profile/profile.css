@@ -1,0 +1,19 @@
+@import '../home/home.css';
+.profile{
+    background-color: var(--bgc);
+}
+
+.profile__container{
+    margin: auto;
+}
+.profile__content{
+    text-align: center  ;
+}
+.profile__title{
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 52.42px;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: ;
+}

@@ -1,0 +1,61 @@
+@media screen and (max-width: 1200px) {
+    .header__container {
+        padding: 20px;
+    }
+    .calendar__сontainer {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .left__panel {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        padding: 30px;
+        background-color: transparent;
+    }
+    .filter__name__title {
+        font-size: 13px;
+    }
+    .calendar__items {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .filter__choice {
+        width: 165px;
+        position: absolute;
+        z-index: 1000;
+    }
+    .filter__item {
+        background-color: var(--hbc);
+        width: 168px;
+        display: block;
+    }
+    .ranges {
+        padding: 0;
+    }
+    .filter_input {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__container {
+        padding: 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left__panel {
+        width: 100%;
+        flex-direction: column;
+    }
+    .filter__choice {
+        position: static;
+        z-index: 1;
+    }
+    .filter__item {
+        width: 100%;
+    }
+}

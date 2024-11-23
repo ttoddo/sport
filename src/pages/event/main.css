@@ -1,0 +1,121 @@
+@import '../home/home.css';
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgc);
+}
+/* выравнивание */
+.main__content{
+    text-align: center;
+}
+/* заголовок */
+.main__title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46.32px;
+    text-transform: uppercase;
+    margin-bottom: 105px;
+
+}
+/* page blocks */
+.main__blocks{
+    display: flex;
+    gap: 92px;
+    align-items: flex-start;
+}
+/* блок фильтров */
+.main__filters{
+    display: flex;
+    flex-direction: column;
+    width: 303px;
+}
+/* Заголовок блока фильтров */
+.filters__title{   
+
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 47.54px;
+    margin-bottom: 21px;
+}
+/* сам блок фильтра */
+.filter{
+    padding: 20px;
+    background: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26.26px;
+    /* инпуты хуинпуты */
+    .filter__content{
+        text-align: left;
+        background-color: #2c2c2c;
+        color: var(--tc);
+        padding: 24px;
+        font-size: inherit;
+        border: 1px solid var(--tc);
+        display: none;
+    }
+    /* заголовок при нажатии на который должен появиться блок */
+    .filter__head{
+        display: flex;
+        color: var(--tc);
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px;
+        text-align: left;
+        border: 1px solid var(--tc);
+       
+    }
+    /* инпуты без хуинпутов */
+    .filter__input{
+        width: 100%;
+        accent-color: #14b8a6;
+    }
+}
+/* штука которая была, когда я еще верстал полностью страницу */
+.first{
+    border-radius: 10px 10px 0 0;
+}
+/* блок карточек */
+.main__cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 43px;
+}
+/* карточка */
+.card{
+    position: relative;
+    padding: 20px 40px;
+    text-align: center;
+    border: solid 3px var(--tc);
+    border-radius: 20px;
+    width: 258px;
+    img{
+        top: 4px;
+        right: 4px;
+        position:absolute;
+        width: 23px;
+    }
+    .card__date{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.38px;
+    }
+    .card__title{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+    }
+    .card__info{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+    .card__place{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.5px;
+    }
+}
