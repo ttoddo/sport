@@ -485,6 +485,7 @@ main {
 /* профиль */
 .profile__container{
     text-align: center;
+    background-color: #fff;
 }
 .profile__title{
     font-size: 38px;
@@ -540,4 +541,59 @@ main {
 .password__block{
     width: 100%;
     text-align: right;
+}
+/* Страница мероприятия */
+
+.event__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #09e2c9;
+    padding: 2%;
+    border-radius: 5%;
+}
+.event__id{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 23.16px;
+}
+.event__title{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 47.54px;
+}
+.event__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 50px;
+    gap: 26px;
+}
+.info__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 18px;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
+    box-shadow: 10px 10px 0 0 rgba(28, 199, 142, 0.5);
+    border-radius: 30px;
+    text-align: left;
+    width: 41%;
+
+}
+.info__title{
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43.88px;
+    color: var(--tc);
+}
+.info__text{
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 35.35px;
+    color: var(--tc);
 }
