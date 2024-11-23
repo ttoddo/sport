@@ -4,6 +4,7 @@ const root = document.querySelector(':root')
 let bell;
 light.addEventListener('click', changeColorLight)
 dark.addEventListener('click', changeColorDark)
+let notification = false;
 
 function changeColorLight() {
     light.classList.add('theme-switcher__btn--active')
@@ -118,3 +119,12 @@ function togglePassword() {
     }
 }
 
+function showNotification(){
+    if (notification == false){
+        document.querySelector(`#notBlock`).style.display = 'block';
+        notification = true;
+    } else if (notification == true){
+        document.querySelector(`#notBlock`).style.display = 'none';
+        notification = false;
+    }
+}

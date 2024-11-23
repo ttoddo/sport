@@ -610,7 +610,7 @@ main {
     right: 5px;
     border: 1px solid #dbdbdb;
     z-index: 4;
-   
+    display: none;
 }
 .notification__item{
     padding: 15px;
